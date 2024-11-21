@@ -1,0 +1,37 @@
+dn: uid=uidrep, ou=people, o=auth
+changetype: modify
+add: objectClass
+objectClass: inetUser
+-
+add: description
+description: DESC
+-
+add: description
+description: GECOS
+-
+add: inetUserStatus
+inetUserStatus: active
+-
+add: sltADSLPwd
+sltADSLPwd: PASSWORD[
+-
+add: sltWifiPwd
+sltWifiPwd: PASSWORD_WIFI][
+-
+add: sltWifiUserStatus
+sltWifiUserStatus: WIFI_STATUS][
+-
+add: sltNASPortId
+sltNASPortId: NAS_PORT_ID][
+-
+add: sltADSLDownPolicy
+sltADSLDownPolicy: DOWNLOADPOLICY][
+-
+add: sltADSLUpPolicy
+sltADSLUpPolicy: UPLOADPOLICY][
+-
+add: sltgoWifi
+sltgoWifi: SLTGO_WIFI][
+-
+add: sltaccountnum
+sltaccountnum: SLTACCOUNTNUM]

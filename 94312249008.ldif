@@ -1,0 +1,7 @@
+dn: uid=94312249008,ou=people,o=auth
+changetype: modify
+replace: sltADSLPwd
+sltADSLPwd: {SSHA}aIr3pLeaOlOdnHVGOR+frIlWtWdaoKZmaFub5A==
+-
+add: description
+description: modify password from OSS on 2024-09-04 10:10:48-Nw05e9kOgtXxkyK

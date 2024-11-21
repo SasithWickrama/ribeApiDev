@@ -1,0 +1,7 @@
+dn: uid=uidrep,ou=people,o=auth
+changetype: modify
+replace: sltADSLPwd
+sltADSLPwd: bbPasswd
+-
+add: description
+description: repdesc
